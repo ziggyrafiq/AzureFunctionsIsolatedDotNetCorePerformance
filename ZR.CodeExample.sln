@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZR.CodeExample", "ZR.CodeExample\ZR.CodeExample.csproj", "{4741B721-3D24-48C8-B5D1-1510996FF3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample02", "ZR.CodeExample02\ZR.CodeExample02.csproj", "{98302D9A-A103-4FDA-84D7-75F3B62951E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample03", "ZR.CodeExample03\ZR.CodeExample03.csproj", "{60746FAF-17B6-49BA-9F05-1E4E879CC95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample04", "ZR.CodeExample04\ZR.CodeExample04.csproj", "{AF29364A-95FB-4238-A4A0-55E70FB91C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample05", "ZR.CodeExample05\ZR.CodeExample05.csproj", "{16531369-8108-470A-8A93-45890488B876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample06", "ZR.CodeExample06\ZR.CodeExample06.csproj", "{DA92CA67-69D3-4ED2-91DE-08D46091C404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZR.CodeExample07", "ZR.CodeExample07\ZR.CodeExample07.csproj", "{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FADAC33E-EF68-4F1D-9153-FCD3AE4BE311}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Brief Explanation of Azure Functions", "01. Brief Explanation of Azure Functions", "{69D15E20-5C5A-4327-852A-7C1401AF09DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Importance of Choosing the Right .NET Core Version for Azure Functions", "02. Importance of Choosing the Right .NET Core Version for Azure Functions", "{B201D5EF-04FB-4C2C-AA4A-6E5C1A62212A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Overview of Isolated .NET Core for Azure Functions", "03. Overview of Isolated .NET Core for Azure Functions", "{ED9B5D0B-9742-4D9F-856F-EC3373A709EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Understanding Azure Functions and .NET Core", "04. Understanding Azure Functions and .NET Core", "{5FB91EEF-1A3C-4922-A94A-EA4E8DBDCF3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Benefits of using .NET Core with Azure Functions", "05. Benefits of using .NET Core with Azure Functions", "{A6DFF904-3401-40E1-A725-EE2A7A6307B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Challenges with using shared .NET versions in Azure Functions", "06. Challenges with using shared .NET versions in Azure Functions", "{45A261F1-9F11-47C2-8091-74725A134369}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4741B721-3D24-48C8-B5D1-1510996FF3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4741B721-3D24-48C8-B5D1-1510996FF3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4741B721-3D24-48C8-B5D1-1510996FF3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4741B721-3D24-48C8-B5D1-1510996FF3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98302D9A-A103-4FDA-84D7-75F3B62951E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98302D9A-A103-4FDA-84D7-75F3B62951E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98302D9A-A103-4FDA-84D7-75F3B62951E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98302D9A-A103-4FDA-84D7-75F3B62951E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60746FAF-17B6-49BA-9F05-1E4E879CC95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60746FAF-17B6-49BA-9F05-1E4E879CC95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60746FAF-17B6-49BA-9F05-1E4E879CC95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60746FAF-17B6-49BA-9F05-1E4E879CC95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF29364A-95FB-4238-A4A0-55E70FB91C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF29364A-95FB-4238-A4A0-55E70FB91C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF29364A-95FB-4238-A4A0-55E70FB91C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF29364A-95FB-4238-A4A0-55E70FB91C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16531369-8108-470A-8A93-45890488B876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16531369-8108-470A-8A93-45890488B876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16531369-8108-470A-8A93-45890488B876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16531369-8108-470A-8A93-45890488B876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA92CA67-69D3-4ED2-91DE-08D46091C404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA92CA67-69D3-4ED2-91DE-08D46091C404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA92CA67-69D3-4ED2-91DE-08D46091C404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA92CA67-69D3-4ED2-91DE-08D46091C404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4741B721-3D24-48C8-B5D1-1510996FF3A8} = {69D15E20-5C5A-4327-852A-7C1401AF09DB}
+		{98302D9A-A103-4FDA-84D7-75F3B62951E1} = {B201D5EF-04FB-4C2C-AA4A-6E5C1A62212A}
+		{60746FAF-17B6-49BA-9F05-1E4E879CC95B} = {ED9B5D0B-9742-4D9F-856F-EC3373A709EA}
+		{AF29364A-95FB-4238-A4A0-55E70FB91C18} = {5FB91EEF-1A3C-4922-A94A-EA4E8DBDCF3E}
+		{16531369-8108-470A-8A93-45890488B876} = {5FB91EEF-1A3C-4922-A94A-EA4E8DBDCF3E}
+		{DA92CA67-69D3-4ED2-91DE-08D46091C404} = {A6DFF904-3401-40E1-A725-EE2A7A6307B2}
+		{1F085AC4-C83B-49B9-B9A3-FCBE9B881A35} = {45A261F1-9F11-47C2-8091-74725A134369}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86DABF07-C29C-4DA0-B980-FD67C94680B7}
+	EndGlobalSection
+EndGlobal

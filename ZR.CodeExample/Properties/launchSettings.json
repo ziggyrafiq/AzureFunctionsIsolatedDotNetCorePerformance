@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ZR.CodeExample": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7264",
+      "launchBrowser": false
+    }
+  }
+}
