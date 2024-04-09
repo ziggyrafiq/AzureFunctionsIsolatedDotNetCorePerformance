@@ -1,9 +1,9 @@
-# Leveraging Isolated .NET Core for Azure Functions: Unleashing Performance and Independence
+# Boosting Azure Function Performance with Isolated .NET Core
 
 ## Overview
 Azure Functions is a serverless computing service by Microsoft Azure that allows developers to execute code without managing infrastructure. Besides supporting event-driven HTTP requests, timers, and more, it is highly scalable and cost-effective. It is crucial to select the right .NET Core version for Azure Functions to ensure performance, compatibility, and security. With isolated .NET Core, runtime and execution are enhanced, providing independence, improved performance, side-by-side deployment, and future compatibility. Using isolated .NET Core for Azure Functions, we'll explore the importance of .NET Core selection and practical implementation.
 
-*  [This Repo Article by Ziggy Rafiq is on C# Corner](https://www.c-sharpcorner.com/article/leveraging-isolated-net-core-for-azure-functions-unleashing-performance-and-in/).
+*  [This Repo Article by Ziggy Rafiq is on C# Corner](https://www.c-sharpcorner.com/article/boosting-azure-function-performance-with-isolated-net-core/).
 
 ## Brief Explanation of Azure Functions
 Azure Functions, offered by Microsoft Azure, enables developers to execute code without managing infrastructure. It supports event-driven actions like HTTP requests and timers, and it's scalable and cost-effective. Choosing the right .NET Core version is vital for performance and security. Isolated .NET Core enhances runtime, providing independence and better performance. In this guide, we explore .NET Core importance and practical usage.
